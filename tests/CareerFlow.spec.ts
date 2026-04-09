@@ -1,6 +1,6 @@
 import { test, expect,Locator } from '@playwright/test';
 
-test('Sign Up', async ({ page, context }) => {
+test('Sign Up', async ({ page}) => {
   await page.goto('https://www.careerflow.ai/', {
     waitUntil: 'domcontentloaded'
   });
